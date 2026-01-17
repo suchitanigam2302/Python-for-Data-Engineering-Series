@@ -1,0 +1,2 @@
+print("DAY 1")
+print("Hello, World!")
