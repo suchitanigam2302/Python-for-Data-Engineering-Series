@@ -25,3 +25,24 @@ y = "Data Engoneering"
 
 print(type(x))
 print(type(y))
+
+#ASSIGN MULTIPLE VALUES TO MULTIPLE VARIABLES
+a,b,c = "Python","is","Great"
+print(a)
+print(b)        
+print(c)
+
+
+#One Value to Multiple Variables
+a=b=c="Python"
+print(a)        
+print(b)        
+print(c)    
+
+
+#UNPACKING A COLLECTION
+fruits = ["Apple","Banana","Cheery"]
+x,y,z=fruits
+print(x)        
+print(y)                
+print(z)
