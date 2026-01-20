@@ -43,3 +43,15 @@ folder = "C:/Users/Suchita/"
 file = "data.csv"
 full_file_path = folder + file
 print(full_file_path)
+
+#f"String"
+name = "Suchita"
+age = 19
+is_student  = False
+print("My name is " + name + ",I am " + str(age) + "years old")
+print(f"My name is {name},I am {age} years old")
+
+print(f"2 + 3  = {2+3}")
+
+print(f"{{This is me}}")
+
