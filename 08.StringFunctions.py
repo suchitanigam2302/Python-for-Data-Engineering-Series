@@ -65,3 +65,8 @@ print(stamp.split("-"))
 
 csv_file = "name,age,city,country"
 print(csv_file.split(","))
+
+#string * function
+
+print ("ha" * 5)
+print("-" * 20)
