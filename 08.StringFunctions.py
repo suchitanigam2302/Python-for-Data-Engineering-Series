@@ -70,3 +70,28 @@ print(csv_file.split(","))
 
 print ("ha" * 5)
 print("-" * 20)
+
+#5.Indexes and Slicing
+text = "Python"
+
+#Extracting the first letter
+print(text[0])
+print(text[-6])
+
+#Extracting the last character
+print(text[5])
+print(text[-1])
+
+#Exract h
+print(text[4])
+print(text[-3])
+
+date = "2026-09-20"
+print(date[0:4])
+print(date[:4])
+
+#Extract the month
+print(date[5:7])
+
+#Extract the day
+print(date[8:])
