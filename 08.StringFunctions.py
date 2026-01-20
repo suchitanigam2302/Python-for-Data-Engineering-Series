@@ -55,3 +55,13 @@ print(f"2 + 3  = {2+3}")
 
 print(f"{{This is me}}")
 
+#4.Spilt function
+
+stampe = "Dear Suchita,Your order has been shipped and will be delivered to you soon.Thank you for shopping with us."
+print(stampe.split(","))
+
+stamp = "2026-08-15 14:30"
+print(stamp.split("-"))
+
+csv_file = "name,age,city,country"
+print(csv_file.split(","))
