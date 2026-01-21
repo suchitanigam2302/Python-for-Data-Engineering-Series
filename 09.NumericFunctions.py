@@ -28,3 +28,23 @@ print(float(c))
 d = 3 #real part
 e = 4 #imaginary part
 print(complex(d,e))
+
+#Math Operators
+print (2 + 3)    # Addition
+print (5 - 2)    # Subtraction
+print (4 * 3)    # Multiplication
+print (10 / 2)   # Division
+print (10 // 3)  # Floor Division
+print (10 % 3)   # Modulus
+print (2 ** 3)   # Exponentiation
+
+x1 = 2
+x1 = x1 + 3
+x1 += 3
+print(x1)
+
+x1-= 1
+print(x1)
+
+x *= 2
+print(x)
