@@ -95,3 +95,31 @@ print(date[5:7])
 
 #Extract the day
 print(date[8:])
+
+#Cleaning Functions
+
+#1.lstrinp() function
+text = "   Hello Python".lstrip()
+print(text)
+
+#2.rstrip function
+text1 = "Hello World  ".rstrip()
+print(text1)
+
+#strip function
+text2 =  "  Hello Python  ".strip()
+print(text2)
+
+text3 = "***Hello World***".strip("*")
+print(text3)
+
+#Clean whitespaces 
+messsage_with_spaces = "  Hi I,m Suchita"
+print(len(messsage_with_spaces))
+print(len(messsage_with_spaces.strip()))
+
+no_of_spaces = len(messsage_with_spaces)-len(messsage_with_spaces.strip())
+is_data_clean = len(messsage_with_spaces) == len(messsage_with_spaces.strip())
+
+print("No of leading and trailing spaces:",no_of_spaces)
+print("Is Data Clean:",is_data_clean)
