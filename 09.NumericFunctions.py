@@ -48,3 +48,12 @@ print(x1)
 
 x *= 2
 print(x)
+
+#Rounding Nukbers
+import math
+price = 19.99
+print(round(price))
+print(round(price,2))
+print(math.floor(price))
+print(math.ceil(price))
+print(math.trunc(price))
