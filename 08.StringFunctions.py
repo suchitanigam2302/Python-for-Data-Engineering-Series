@@ -127,13 +127,26 @@ print("Is Data Clean:",is_data_clean)
 
 #CaseConversion Functions
 
-#1.lower() function
+#1.lower and Upper() function
 text5 = "data ENGINEERING"
 print(text5.lower())
 print(text5.upper())
+print(text5.capitalize())
+
+
 
 Search = " Email".lower().strip()
 data = "emaIl".lower().strip()
 
 print(Search == data)
 
+
+#Advanced challenges
+
+#Question : 968-Maria, ( D@t@ Engineer );; 27y  
+
+name = "968-maria"
+role =  ("D@t@ Engineer")
+age = 27
+answer = (f"Name: {name.strip().capitalize().replace("968-","")} | Role : {role.strip().replace("@","a")} | Age: {age}years")
+print(answer)
