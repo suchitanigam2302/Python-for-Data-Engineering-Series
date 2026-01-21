@@ -147,6 +147,20 @@ print(Search == data)
 
 name = "968-maria"
 role =  ("D@t@ Engineer")
-age = 27
-answer = (f"Name: {name.strip().capitalize().replace("968-","")} | Role : {role.strip().replace("@","a")} | Age: {age}years")
+age = str("27 y  ")
+answer = (f"Name: {name.strip().capitalize().replace("968-","")} | Role : {role.strip().replace("@","a")} | Age: {age}".strip())
 print(answer)
+
+#Seacrh Function
+phone_number = "+91-5487587987"
+print(phone_number.startswith("+91"))
+print(phone_number.endswith("987"))
+print(phone_number[phone_number.find("-")+1:])
+
+email = "suchi@gmail.com"
+print(email.endswith("gmail.com"))
+print("@" in email)
+print(email[:email.find("@")])
+
+url = "https://www.dataengineering.com"
+print("/www" in url)
