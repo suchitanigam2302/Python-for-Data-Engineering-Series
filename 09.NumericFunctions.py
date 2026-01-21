@@ -57,3 +57,8 @@ print(round(price,2))
 print(math.floor(price))
 print(math.ceil(price))
 print(math.trunc(price))
+
+#Random Functions
+import random
+print(random.random())
+print(random.randomint(1,10))
