@@ -123,3 +123,17 @@ is_data_clean = len(messsage_with_spaces) == len(messsage_with_spaces.strip())
 
 print("No of leading and trailing spaces:",no_of_spaces)
 print("Is Data Clean:",is_data_clean)
+
+
+#CaseConversion Functions
+
+#1.lower() function
+text5 = "data ENGINEERING"
+print(text5.lower())
+print(text5.upper())
+
+Search = " Email".lower().strip()
+data = "emaIl".lower().strip()
+
+print(Search == data)
+
