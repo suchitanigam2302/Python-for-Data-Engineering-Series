@@ -164,3 +164,13 @@ print(email[:email.find("@")])
 
 url = "https://www.dataengineering.com"
 print("/www" in url)
+
+
+#Validation Functions
+#isalpha(),isdigit(),isnumeric()
+Country ="India"
+print(Country.isalpha())
+
+pin_code = "560034"
+print(pin_code.isdigit())
+print(pin_code.isnumeric())
