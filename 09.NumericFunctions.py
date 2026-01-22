@@ -75,3 +75,14 @@ print(g.is_integer())
 h = 10.2
 print(isinstance(h,int))
 print(isinstance(h,float))
+
+#Advanced Math FUnctions
+
+import math
+
+i = 2
+print(math.sqrt(i))  # Square root of x
+print(math.sin(i))  # Sine of x
+print(math.cos(i))  #Cosine of x
+print(math.log(i))  # Natural logarithm of x
+print(math.factorial(i))  # Factorial of x
