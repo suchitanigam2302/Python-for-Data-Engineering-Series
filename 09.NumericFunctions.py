@@ -61,4 +61,17 @@ print(math.trunc(price))
 #Random Functions
 import random
 print(random.random())
-print(random.randomint(1,10))
+print(random.randint(1,10))
+
+#Validation Function
+#1.is_integer()
+f = 7.0
+print(f.is_integer())
+
+g = 7.8
+print(g.is_integer())
+
+#2.isinstance()
+h = 10.2
+print(isinstance(h,int))
+print(isinstance(h,float))
