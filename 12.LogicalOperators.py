@@ -28,3 +28,13 @@ print(not not False)
 name = "" 
 print(not name)
 print(not 0)  # 0 is already false and not 0 is true
+
+#Alllow only if the user is logged in
+#or they are guest
+#but they must not be banned
+
+is_logged_in = True
+is_guest = False
+is_banned = False
+
+print((is_logged_in or is_guest) and not is_banned)
