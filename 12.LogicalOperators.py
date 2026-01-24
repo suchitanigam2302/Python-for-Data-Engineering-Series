@@ -18,3 +18,13 @@ print(cpu_usage > 70 or memory_usage > 90)
 email = True
 password = False
 print(email and password)
+
+#Not Operator
+print(not True)
+print(not False)
+print(not 3 > 1)
+print(not not False)
+
+name = "" 
+print(not name)
+print(not 0)  # 0 is already false and not 0 is true
