@@ -2,6 +2,9 @@
 score = int(input("Enter the score:" ))
 if score >= 90:
         print("A")
+#elif
+elif score >= 70:
+        print("B")
 # else
 else:
         print("F")
