@@ -33,3 +33,5 @@ if is_project_submitted :
        print("Project is Submitted")
 else :
        print("Project is not Submitted")
+
+#ABove all are conditional statements
