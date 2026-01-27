@@ -1,7 +1,11 @@
 #if statement
 score = int(input("Enter the score:" ))
+is_project_submitted = True
 if score >= 90:
-        print("A")
+        if is_project_submitted:
+            print("A+")
+        else :
+            print("A")
 #elif
 elif score >= 80:
         print("B")
