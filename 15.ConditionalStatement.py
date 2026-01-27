@@ -1,7 +1,7 @@
 #if statement
 score = int(input("Enter the score:" ))
 is_project_submitted = True
-if score >= 90 and is_project_submitted:
+if score >= 90 and is_project_submitted: #Logical operators
     print("A+")
 elif score >=90 :
        print("A")
@@ -20,3 +20,16 @@ elif score >= 50:
 # else
 else:
         print("F")
+
+
+
+#Independent if
+if score >= 90 :
+       print("High Score")
+else :
+       print("Low Score")
+
+if is_project_submitted :
+       print("Project is Submitted")
+else :
+       print("Project is not Submitted")
