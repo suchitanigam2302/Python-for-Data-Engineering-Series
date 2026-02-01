@@ -20,3 +20,7 @@ files = [" Reprot.csv "," DATA.csv","final.TXT "]
 for file in files:
     file = file.strip().lower().replace('txt','csv')
     print(f"Processing : {file}")
+
+# 7 Table
+for table in range (1,11):
+    print(f"7 * {table} = {7 * table}")
