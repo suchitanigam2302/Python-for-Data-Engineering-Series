@@ -24,3 +24,10 @@ for file in files:
 # 7 Table
 for table in range (1,11):
     print(f"7 * {table} = {7 * table}")
+
+for t in range (1,11):
+    print(f"10 * {t} = {10 * t}")
+
+star = "*"
+for i in range (1,7):
+    print (f"{star * i}")
