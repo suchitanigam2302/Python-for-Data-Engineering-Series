@@ -14,3 +14,9 @@ for score in scores :
     total += score
     print("Current total :",total)
 print("Final Total :",total)
+
+#Data Cleaning
+files = [" Reprot.csv "," DATA.csv","final.TXT "]
+for file in files:
+    file = file.strip().lower().replace('txt','csv')
+    print(f"Processing : {file}")
