@@ -1,4 +1,8 @@
 #FOR LOOP
-items  = (1,2,3,4,5)
-for item in items :
+for item in range (1,5) :
     print(f"Rounds : {item}")
+
+#Sequences
+string = "Python"
+for str in string :
+    print(f"Sequences : {str}")
